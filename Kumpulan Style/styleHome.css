@@ -12,17 +12,33 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 2rem;
+    flex: 1;
+    justify-content: center;
+}
+
+.containerSideBar{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 20%;
+    justify-content: flex-start;
 }
 
 .sideBar{
-    width: 15%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    
+    transition: 0.3s;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sideBar.active{
+    width: 0;
+    overflow-x: hidden;
 }
 
 .kontenSideBar{
@@ -34,6 +50,7 @@
     gap: 2.5rem;
     background-color: #91DCD5;
     height: 100%;
+    transition: 0.3s;
 }
 
 .kontenSideBar img{
@@ -66,14 +83,23 @@
     height: auto;
 }
 .kontenSideBar a{
+    padding: 0.5rem;
     text-decoration: none;
     color: white;
+    transition: 0.3s;
+}
+
+.kontenSideBar a:hover{
+    color: #91DCD5;
+    background-color: white;
 }
 
 .toggle{
     height: 100%;
-    
+    width: 20%;
 }
+
+
 
 #tombolToggle{
     background-color: #F2DD6E;
@@ -81,6 +107,17 @@
     border: none;
     padding: 0.5rem;
     height: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#tombolToggle:hover{
+    opacity: 0.8;
+}
+
+.kontenSideBar.active{
+    width: 0;
+    overflow-x: hidden;
 }
 
 .wrapper{
