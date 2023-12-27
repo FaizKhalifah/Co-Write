@@ -22,6 +22,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    
 }
 
 .kontenSideBar{
@@ -78,4 +79,29 @@
     border: none;
     padding: 0.5rem;
     height: 100%;
+}
+
+.wrapper{
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    margin: 2rem;
+}
+
+.superImage{
+    color: #F2DD6E;
+    padding: 12rem;
+    background-image: url('/Kumpulan\ Icon\ dan\ Gambar/Foto Deskripsi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.superImage h1{
+   text-shadow: 5px 3px #523A34;
 }
