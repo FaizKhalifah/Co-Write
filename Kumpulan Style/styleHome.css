@@ -159,3 +159,35 @@ main h1{
     color: #F2DD6E;
     background-color: white;
 }
+
+
+
+.kumpulanTestimoni{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 1.5rem;
+    margin: 2rem;
+}
+
+.kumpulanTestimoni span{
+    color: white;
+    background-color: #F2DD6E;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 2px 3px 5px #523A34;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.testimoni span:hover{
+    transform: scale(1.1,1.1);
+}
+
+footer{
+    background-color: #523A34;
+    color: white;
+    padding: 2rem;
+}
