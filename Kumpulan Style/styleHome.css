@@ -1,0 +1,9 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,500&family=Inter&family=Poppins:wght@500&family=Quicksand:wght@400;500;700&family=Roboto&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
