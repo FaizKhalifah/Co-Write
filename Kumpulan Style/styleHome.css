@@ -5,5 +5,77 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Anton', sans-serif;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+
+.sideBar{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontenSideBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    background-color: #91DCD5;
+    height: 100%;
+}
+
+.kontenSideBar img{
+    width: 50%;
+    height: auto;
+}
+
+.kontenSideBar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.kontenSideBar li{
+    list-style: none;
+}
+
+.kontenSideBar li span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.kontenSideBar li img{
+    width: 2.5rem;
+    height: auto;
+}
+.kontenSideBar a{
+    text-decoration: none;
+    color: white;
+}
+
+.toggle{
+    height: 100%;
+    
+}
+
+#tombolToggle{
+    background-color: #F2DD6E;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    height: 100%;
 }
