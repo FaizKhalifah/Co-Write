@@ -120,3 +120,42 @@ main article{
     width: 50%;
     text-align: center;
 }
+
+main h1{
+    margin-bottom: 1.5rem;
+    color: #523A34;
+}
+
+.deskripsi img{
+    width: 50%;
+}
+
+.containerLayanan{
+    margin: 5rem 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    gap: 1.5rem;
+}
+
+
+.containerLayanan img{
+    width: 35%;
+    height: auto;
+}
+
+.layanan a{
+    text-decoration: none;
+    color: white;
+    background-color: #F2DD6E;
+    border-radius: 2rem;
+    padding: 1.2rem 3rem;
+    transition:0.3s ;
+}
+
+.layanan a:hover{
+    color: #F2DD6E;
+    background-color: white;
+}
