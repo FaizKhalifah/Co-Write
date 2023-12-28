@@ -257,10 +257,49 @@ footer{
 
     header{
        width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
     }
 
+    .superImage{
+        text-align: center;
+        width: 100%;
+    }
+
+    .superImage h1{
+        font-size: 2rem;
+    }
     
-    
+    main {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    main article{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    main article span{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .marketing{
+        align-items: center;
+        justify-self: unset;
+        justify-self: center;
+        
+    }
+
     footer{
         text-align: center;
         width: 100%;
