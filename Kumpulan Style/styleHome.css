@@ -99,8 +99,6 @@
     width: 20%;
 }
 
-
-
 #tombolToggle{
     background-color: #F2DD6E;
     color: white;
@@ -120,6 +118,7 @@
     overflow-x: hidden;
 }
 
+
 .wrapper{
     width: 80%;
     display: flex;
@@ -130,16 +129,22 @@
 
 header{
     margin: 2rem;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .superImage{
+    width: 100%;
     color: #F2DD6E;
     padding: 12rem;
     background-image: url('/Kumpulan\ Icon\ dan\ Gambar/Foto Deskripsi.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: auto;
 }
 
 .superImage h1{
@@ -227,4 +232,61 @@ footer{
     background-color: #523A34;
     color: white;
     padding: 2rem;
+    
+}
+
+@media only screen and (max-width: 720px){
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerSideBar{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sideBar{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .kontenSideBar{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kontenSideBar li span{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .toggle{
+        display: none;
+    }
+
+    
+    #tombolToggle{
+        display: none;
+    }
+
+    .wrapper{
+        width: 75%;
+    }
+
+    header{
+       width: 70%;
+    }
+
+    .superImage{
+        padding: 2rem;
+        font-size: smaller;
+        text-align: center;
+    }
+    
 }
