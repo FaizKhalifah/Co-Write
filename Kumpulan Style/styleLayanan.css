@@ -278,6 +278,10 @@ footer{
         
     }
 
+    .marketing{
+        align-self: flex-start;
+    }
+
     main article{
         flex-direction: column;
         align-items: center;
@@ -294,11 +298,12 @@ footer{
     }
 
     .marketing{
-        align-items: center;
-        justify-self: unset;
-        justify-self: center;
+        display: flex;
+        flex-direction: column-reverse;
         
     }
+
+   
 
     footer{
         text-align: center;
