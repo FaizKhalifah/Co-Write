@@ -180,9 +180,8 @@ main{
 .kumpulanProduk{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: baseline;
-    align-content: center;
     gap: 5rem;
     margin: 2rem;
 }
