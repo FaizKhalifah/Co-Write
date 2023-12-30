@@ -308,29 +308,25 @@ footer{
         
     }
 
-    .marketing{
-        align-self: flex-start;
+    .containerForm{
+        width: 80%;
+        flex-direction: row;
+        justify-content: center;
     }
 
-    main article{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    #cari{
+        width: 15rem;
+    }
+
+    .kumpulanProduk{
+        flex-flow: column nowrap;
         width: 100%;
-    }
-
-    main article span{
-        width: 50%;
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .marketing{
-        display: flex;
-        flex-direction: column-reverse;
-        
+    .kumpulanProduk div{
+        width: 80%;
     }
 
    
