@@ -1,0 +1,249 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,500&family=Inter&family=Poppins:wght@500&family=Quicksand:wght@400;500;700&family=Roboto&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+    justify-content: center;
+}
+
+.containerSideBar{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 20%;
+    justify-content: flex-start;
+}
+
+.sideBar{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sideBar.active{
+    width: 0;
+    overflow-x: hidden;
+}
+
+.kontenSideBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 2.5rem;
+    background-color: #91DCD5;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.kontenSideBar img{
+    width: 50%;
+    height: auto;
+}
+
+.kontenSideBar ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+.kontenSideBar li{
+    list-style: none;
+}
+
+.kontenSideBar li span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.kontenSideBar li img{
+    width: 2.5rem;
+    height: auto;
+}
+.kontenSideBar a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.kontenSideBar a:hover{
+    color: #91DCD5;
+    background-color: white;
+}
+
+.toggle{
+    height: 100%;
+    width: 20%;
+}
+
+#tombolToggle{
+    background-color: #F2DD6E;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#tombolToggle:hover{
+    opacity: 0.8;
+}
+
+.kontenSideBar.active{
+    width: 0;
+    overflow-x: hidden;
+}
+
+
+.wrapper{
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+header{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.superImage{
+    color: #F2DD6E;
+    padding: 12rem;
+    background-image: url('/Kumpulan\ Icon\ dan\ Gambar/Foto shop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: auto;
+    width: 90%;
+}
+
+.superImage h1{
+    text-shadow: 7px 5px #523A34;
+    font-size: 5rem;
+ }
+
+main{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer{
+    background-color: #523A34;
+    color: white;
+    padding: 2rem;
+    
+}
+
+@media only screen and (max-width: 720px){
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerSideBar{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sideBar{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .kontenSideBar{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kontenSideBar li span{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .toggle{
+        display: none;
+    }
+
+    
+    #tombolToggle{
+        display: none;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+
+    header{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .superImage{
+        text-align: center;
+        width: 100%;
+    }
+
+    .superImage h1{
+        font-size: 2rem;
+    }
+    
+    main {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    footer{
+        text-align: center;
+        width: 100%;
+    }
+}
