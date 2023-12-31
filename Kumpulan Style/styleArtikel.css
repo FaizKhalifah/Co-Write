@@ -141,7 +141,7 @@ header{
 .superImage{
     color: #F2DD6E;
     padding: 12rem;
-    background-image: url('/Kumpulan\ Icon\ dan\ Gambar/Foto shop.jpg');
+    background-image: url('/Kumpulan\ Icon\ dan\ Gambar/Foto Artikel.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -162,6 +162,28 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+.kumpulanArtikel{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.kumpulanArtikel div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kumpulanArtikel img{
+    width: 50%;
+    height: auto;
+}
+
 
 
 
@@ -242,6 +264,7 @@ footer{
         
     }
 
+   
     footer{
         text-align: center;
         width: 100%;
