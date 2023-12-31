@@ -169,12 +169,14 @@ main{
     justify-content: flex-start;
     align-items: center;
     gap: 2rem;
+    margin: 2rem;
 }
 
 .kumpulanArtikel div{
     width: 20%;
     display: flex;
     flex-direction: column;
+    gap:1.5rem;
     justify-content: center;
     align-items: center;
 }
@@ -183,9 +185,6 @@ main{
     width: 50%;
     height: auto;
 }
-
-
-
 
 footer{
     background-color: #523A34;
@@ -260,10 +259,22 @@ footer{
     main {
         width: 100%;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center; 
     }
 
+    .kumpulanArtikel{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kumpulanArtikel div{
+        width: 100%;
+    }
+
+    .kumpulanArtikel img{
+        width: 80%;
+    }
    
     footer{
         text-align: center;
